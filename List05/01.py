@@ -44,6 +44,26 @@ print(lst )
 ls = [11,22,33,44,55,66,77,88,99]
 print(ls)
 ls.pop()   # it remove at the end of an element 
-print('after pop element ')
+print('after pop element ',ls)
 ls.pop()
-print('after pop one more element ')
+print('after pop one more element ',ls)
+
+
+
+
+# Reverse()  function 
+
+n = [11,22,33,44,55,66,77]
+n.reverse()
+print(n)
+
+
+
+#  sort() function 
+srt = [22,33,77,21,0,33,9,56,4]
+srt.sort()
+print(srt)  
+
+s= ['dog','banaba','apple ']
+s.sort()
+print(s)
