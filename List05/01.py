@@ -9,20 +9,20 @@ print(list)
 print(type(list))    
 
 # With split function 
-s=  'learning python is very easy '
+s=  'learning python is very easy '  # split() convert the element into list 
 d = s.split()
 print(d)
 print(d)
 
 # append() Function
-list = []
+list = []            # append add the element at the end of list  but one element at a time 
 for i in range(101):
     if i%10==0:
         list.append(i)
 print(list)
 
-# insert() Function
-ins = [11,22,33,44,55]
+# insert() Function 
+ins = [11,22,33,44,55] # insert() you have to mention index value where do you want insert value  
 print(ins)
 ins.insert(0,7643)
 print('commit changes ',ins)
