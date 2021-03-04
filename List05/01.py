@@ -32,7 +32,7 @@ print('commit changes ',ins)
 x= [11,22,33]
 y=[44,55,66]
 x.extend(y) # here you have to mention which file/element is extending with y like here "x"
-print('extended ::::', x)
+print('extended    ', x)
 
 # Remove () function 
 lst =[11,22,33,44,55] # in remove function which element you want to remove you have to do that 
