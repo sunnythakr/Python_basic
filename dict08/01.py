@@ -111,5 +111,3 @@ s = sum(d.values())
 print("sum=",s)
 
 
-#  Write a program to find number of occurance of each letter prtesent in the given string 
-
