@@ -52,5 +52,76 @@ def add (x,y):
 print("the sum is ", add(11,22))
 
 
+# Write a fuction to check wheateher the given number is even or odd 
+
+
+def even_odd(number):
+    if number%2==0:
+        print(number,"This is a even number ")
+
+    else:
+        print(number ,"this is a odd number ")
+
+even_odd(11)
+even_odd(12)
+even_odd(101)
+
+
+# Write a function to find factorial of given number 
+
+def fact(num):
+    result = 1
+    while num>=1:
+        result = result*num
+        num =num-1
+    return result
+
+for i in range(1,5):
+    print("ths factorila of ",i,"is",fact(i))
+
+
+
+# return multiple value from a function 
+
+def sum_sub(a,b):
+    sum = a+b
+    sub = a-b
+    return sum,sub
+a,b=sum_sub(100,50)
+print("the sum is ",a)
+print("the sub is ",b)
+
+# Example we can pass argument value by keyword that is parameter name 
+
+def wish1(name,msg):
+    print("hello",name,msg)
+    
+wish1("sunny","how are youn")
+wish1(name ="sunny",msg="how are youn")
+
+
+# degfault Argument
+
+def default(name="Guest"):
+    print("hello",name,"How are you")
+
+default("johnsons")
+default() #  we did not pass argument here default argument 
+
+
+
+# Variable lenght Arguments 
+
+def sum(*n):
+    total = 0
+    for n1 in n:
+        total = total+n1
+    print("the sum of total",total)
+
+sum(11)
+sum(11,22)
+sum(11,33,44,55)
+sum(11,1,12,34,56)
+
 
 
