@@ -109,3 +109,7 @@ for k, v in d.items():
 d= eval(input("ENter dictionary "))
 s = sum(d.values())
 print("sum=",s)
+
+
+#  Write a program to find number of occurance of each letter prtesent in the given string 
+
