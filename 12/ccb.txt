@@ -1,0 +1,3 @@
+hello
+openting the file 
+ with statements 
