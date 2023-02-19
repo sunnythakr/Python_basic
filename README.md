@@ -1,2 +1,2 @@
-# Python_basic
-In this repository I am adding python programming from basics-Intermediate-advance 
+# Python
+This repository contaions resources for learning the python programming language, from basic to intermediate to advance levels.
