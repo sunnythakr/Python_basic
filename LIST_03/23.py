@@ -8,7 +8,6 @@ class solution:
         return -1
 s = solution()
 arr = [1,2,3,4]
-
 N = len(arr)
 x = 3
 print(s.search(arr,N,x))
