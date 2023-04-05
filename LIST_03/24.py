@@ -15,4 +15,4 @@ A = [2,3,4,5]
 B = [3,4,5,6]
 N = len(A)
 S = Solution()
-print(S.check(A,B,N))
+print()
