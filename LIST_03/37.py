@@ -3,7 +3,7 @@
 
 # Input: 
 # N = 3
-# arr = [1,2,3]
+# arr = [1,2,3
 # Possible Answer: 2
 # Generated Output: 1
 
