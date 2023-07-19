@@ -2,14 +2,11 @@
 # Str = HappyNewYear
 # Output: HapyNewYr
 def removeDuplicates(str):
-    seen = set()  # Set to keep track of encountered characters
-    result = ""  # Resultant string
-
-    for char in str:
-        if char.lower() not in seen:
-            seen.add(char.lower())
-            result += char
-
-    return result
+    st=""
+    for i in str:
+            if(i not in st):
+                st+=i
+    return st
+        
 Str = "HappyNewYear"
 print(removeDuplicates(Str))
