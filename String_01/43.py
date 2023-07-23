@@ -1,29 +1,22 @@
-# #example one 
-def summation(n):
-    sum = 0
-    for i in range(n+1):
-        sum +=i
-    return sum
-    return n *(n+1)//2
+def removeReverse(S):
+    stack = []
+    seen = set()
 
-n =  int(input("enter numer"))
-print(summation(n))
+    for char in S:
+        if char not in seen:
+            stack.append(char)
+            seen.add(char)
+        else:
+            # Removing the first occurrence of the repeating character
+            while stack and stack[-1] != char:
+                seen.remove(stack.pop())
 
-# # Example 2
-def summation(n):
-    return n *(n+1)//2
+    return "".join(stack[::-1])
 
-n =  int(input("enter numer"))
-print(summation(n))
+# Example 1
+S1 = "abab"
+print(removeReverse(S1))  # Output: "ba"
 
-#example 3
-
-def summation(n):
-    sum = 0
-    for i in range(0,n+1):
-        for j in range(0,i):
-            sum +=1
-    return sum
-
-n =  int(input("enter numer"))
-print(summation(n))
+# Example 2
+S2 = "dddd"
+print(removeReverse(S2))  # Output: "d"
