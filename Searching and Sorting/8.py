@@ -1,16 +1,16 @@
 # Example 1
 # time coplexity O(n)
-def floor(arr, n,x):
-    i =0
-    while(n>0):
-        if arr[i] < x:
-            return 1
-            i +=1
-        return -1
-arr = [1,2,8,10,11,12,19]
-n = len(arr)
-x = 5
-print(floor(arr,n,x))
+# def floor(arr, n,x):
+#     i =0
+#     while(n>0):
+#         if arr[i] < x:
+#             return 1
+#             i +=1
+#         return -1
+# arr = [1,2,8,10,11,12,19]
+# n = len(arr)
+# x = 5
+# print(floor(arr,n,x))
 
 # example 2
 # time complexity  O(log N)
@@ -32,3 +32,7 @@ def findFloor( arr, N, X):
                 low = mid + 1
 
         return result
+arr = [1,2,8,10,11,12,19]
+n = len(arr)
+x = 5
+print(findFloor(arr,n,x))
