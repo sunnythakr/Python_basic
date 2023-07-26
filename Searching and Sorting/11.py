@@ -14,7 +14,8 @@ def two(arr,n):
             s.add(i)
         else:
             res.append(i)
-    return res#Your code here
+    return res
+    
 
 # example 1
 arr = [1,2,1,3,4,3]
