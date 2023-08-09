@@ -28,6 +28,7 @@ linked_list1 = LinkedList()
 linked_list1.append(1)
 linked_list1.append(2)
 linked_list1.display()
+print()
 # Output: 1 2
 
 # Test Example 2
