@@ -1,0 +1,1 @@
+# MusicPlayer class in Python, which models a simple music player:
