@@ -2,7 +2,7 @@
 #  posts, and interactions:
 class User:
     def __init__(self, username, email):
-        self._usernam  = username  # Encapsulated attribute
+        self._username = username  # Encapsulated attribute
         self._email = email  # Encapsulated attribute
         self._posts = []  # Encapsulated attribute for user's posts
         self._followers = set()  # Encapsulated attribute for user's followers
