@@ -1,0 +1,1 @@
+# Delete without head pointer
