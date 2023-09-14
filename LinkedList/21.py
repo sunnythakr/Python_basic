@@ -8,7 +8,7 @@ def findIntersection(head1, head2):
     dummy = Node(0)
     tail = dummy
     
-    while head1 is not None and head2 is not None:
+    while head1  is not None and head2 is not None:
         if head1.data < head2.data:
             head1 = head1.next
         elif head1.data > head2.data:
