@@ -25,4 +25,4 @@ stack.push(3)
 print(stack.pop())  # Output: 3
 stack.push(4)
 print(stack.pop())  # Output: 4
- 
+  
