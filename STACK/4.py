@@ -1,5 +1,5 @@
 # Implement Stack using Linked List
-class MyStack:
+class MyStack:  
     class StackNode:
         # Constructor to initialize a node
         def __init__(self, data):
