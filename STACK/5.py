@@ -31,4 +31,4 @@ solution.Sorted(stack)
 
 # Print the sorted stack.
 while stack:
-    print(stack.pop(), end=" ")  # Output: 3 2 1
+    print(stack.pop(), end=" ")  # Output: 11,9,3 2 1
